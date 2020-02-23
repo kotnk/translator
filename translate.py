@@ -23,7 +23,7 @@ def reader():
 
 
 def translate_it(text, from_lang, to_lang):
-    api_key = 'trnsl.1.1.20200222T173117Z.44c78eecca664b79.27fcef98acd8ece997fa0520fec7fa6f081291f1'
+    api_key = 'your_token_here'
     url = 'https://translate.yandex.net/api/v1.5/tr.json/translate'
     params = {
         'key': api_key,
@@ -41,7 +41,7 @@ def translate_it(text, from_lang, to_lang):
 
 
 def uploader(file):
-    token = 'OAuth AgAAAAAgRZ8KAADLW-EJI3AA-EswnWkq2QpgWDo'
+    token = 'OAuth your_token_here'
     url = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
     headers = {
         'Authorization': token
